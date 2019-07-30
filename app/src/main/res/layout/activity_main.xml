@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent">
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:background="#1a1a1a"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textColor="#F36969"
+            android:textSize="60sp"
+            android:text="WELCOME to Sample App"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:padding="15dp"
+            android:id="@+id/allbtn"
+            android:background="#1a1a1a"
+            android:textColor="#E4C3C3"
+            android:layout_marginTop="70dp"
+            android:textSize="25sp"
+            android:text="View all contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:padding="15dp"
+            android:id="@+id/addbtn"
+            android:background="#1a1a1a"
+            android:textColor="#E4C3C3"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:text="Add profile to your list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>
