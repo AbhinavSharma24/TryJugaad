@@ -1,16 +1,13 @@
 package com.example.jugaad
 
 import android.database.Cursor
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
-import android.view.View
 import android.widget.SimpleCursorAdapter
 import kotlinx.android.synthetic.main.activity_all_contacts.*
 import android.widget.Toast
-import android.widget.AdapterView
 import android.widget.AdapterView.OnItemLongClickListener
-
+import androidx.appcompat.app.AppCompatActivity
 
 
 @Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
