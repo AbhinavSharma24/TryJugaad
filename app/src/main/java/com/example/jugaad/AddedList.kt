@@ -12,8 +12,8 @@ class AddedList : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_added_list)
 
-        val name = arrayOf(etfirstname.text.toString() + etsamename.text.toString())
-        val phoneno = arrayOf(etphoneno.text.toString())
+        val name = arrayOf(firstName.editText?.text.toString() + surname.editText?.text.toString())
+        val phoneno = arrayOf(phoneNumber.editText?.text.toString())
 
         val adapter = ArrayAdapter(this,android.R.layout.simple_list_item_2,name)
         allListView.adapter = adapter
