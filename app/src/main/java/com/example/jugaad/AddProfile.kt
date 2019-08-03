@@ -3,7 +3,7 @@ package com.example.jugaad
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_add_profile.*
 
 class AddProfile : AppCompatActivity() {
 
@@ -11,7 +11,7 @@ class AddProfile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_profile)
 
-        addbtn.setOnClickListener {
+        addProfileBtn.setOnClickListener {
             startActivity(Intent(this,AddedList::class.java))
         }
     }

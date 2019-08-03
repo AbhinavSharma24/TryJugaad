@@ -26,13 +26,14 @@
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:hint="First Name"
-            android:gravity="center"
+            android:gravity="left"
             android:id="@+id/firstName"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="340dp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:textColor="#111"
                 android:hint="First Name"
@@ -42,7 +43,7 @@
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:hint="Surname"
-            android:gravity="center"
+            android:gravity="left"
             android:id="@+id/surname"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_height="wrap_content">
@@ -51,6 +52,7 @@
                 android:layout_width="340dp"
                 android:layout_height="wrap_content"
                 android:textColor="#111"
+                android:layout_gravity="center"
                 android:hint="Surname"
                 android:inputType="textEmailAddress"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -68,7 +70,7 @@
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:hint="Profession"
-            android:gravity="center"
+            android:gravity="left"
             android:id="@+id/profession"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_height="wrap_content">
@@ -77,6 +79,7 @@
                 android:layout_width="340dp"
                 android:layout_height="wrap_content"
                 android:textColor="#111"
+                android:layout_gravity="center"
                 android:hint="Profession"
                 android:inputType="textEmailAddress"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -85,14 +88,15 @@
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:hint="Expertise In"
-            android:gravity="center"
+            android:gravity="left"
             android:id="@+id/expertise"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="340dp"
+                android:layout_width="400dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:textColor="#111"
                 android:hint="Expertise In"
                 android:inputType="textEmailAddress"/>
@@ -111,13 +115,14 @@
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:hint="Phone Number"
-            android:gravity="center"
+            android:gravity="left"
             android:id="@+id/phoneNumber"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="340dp"
+                android:layout_width="400dp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:textColor="#111"
                 android:hint="Phone Number"
@@ -127,13 +132,14 @@
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:hint="E-Mail ID"
-            android:gravity="center"
+            android:gravity="left"
             android:id="@+id/Email"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="340dp"
+                android:layout_width="400dp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:textColor="#111"
                 android:hint="E-Mail ID"
@@ -227,7 +233,7 @@
     
     <Button 
             android:id="@+id/addProfileBtn"
-            android:text="Save"
+            android:text="Add Profile"
             android:background="#1a1a1a"
             android:layout_marginTop="50dp"
             android:layout_gravity="center"
