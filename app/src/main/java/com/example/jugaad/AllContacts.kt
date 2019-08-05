@@ -36,7 +36,7 @@ class AllContacts : AppCompatActivity() {
 
         allListView.onItemLongClickListener = OnItemLongClickListener { arg0, arg1, arg2, arg3 ->
             val i = arg2 + 1
-            Toast.makeText(this@AllContacts, "Long Clicked Trigger : $i", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@AllContacts, "Long Clicked Trigger : ${ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME}", Toast.LENGTH_LONG).show()
             true
         }
 
